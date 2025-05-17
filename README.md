@@ -1,5 +1,5 @@
  # Cloud-Projects
-# ☁️ Azure Cloud Projects (CLI-Focused Labs)
+# ☁️ Azure Cloud Projects (Mainly CLI-Focused Labs)
 
 This repository documents my **cloud learning journey** through hands-on labs using Azure CLI. Every project here is created, deployed, tested, and (sometimes broken 😅) entirely via terminal — with no GUI shortcuts. Mistakes, lessons, and fixes are part of the process and shared openly.
 
