@@ -1,68 +1,74 @@
- # Cloud-Projects
-# ☁️ Azure Cloud Projects (Mainly CLI-Focused Labs)
+# ☁️ Azure Cloud Projects (Hands-on Learning Labs)
 
-This repository documents my **cloud learning journey** through hands-on labs using Azure CLI. Every project here is created, deployed, tested, and (sometimes broken 😅) entirely via terminal — with no GUI shortcuts. Mistakes, lessons, and fixes are part of the process and shared openly.
+This repository documents my cloud learning journey through **practical Azure labs** — focused on understanding, building, and breaking infrastructure through terminal-based tools like Azure CLI. While the CLI is prioritized to strengthen my scripting skills, the goal is full architectural fluency across both **CLI and Portal** workflows.
+
+Mistakes, wins, and lessons are all shared here — this is a real learning journal.
 
 ---
 
 ## 👨‍💻 Why I’m Doing This
 
-- 🎯 I'm learning by doing — no passive theory here
-- 🧠 I document both wins and errors to grow faster and help others
-- 📈 The end goal is to grow into **Cloud Architect** or **DevOps Engineer**
-- 🔧 This will eventually include **DevOps-focused labs** as well (CI/CD, automation, pipelines)
+- 🎯 Learning through **hands-on labs**, not just reading
+- 🧠 Documenting everything (including errors) to grow faster
+- 🛠️ Preparing for real-world roles in **Cloud Architecture** and **DevOps Engineering**
+- 🔄 Eventually expanding into automation, IaC, and multi-cloud strategies
 
 ---
 
-## 🔧 Tools Used
+## 🧰 Tools Used
 
-- **Azure CLI** (`az`)
-- **Bash scripting**
-- **VS Code**
-- **Git + GitHub**
-- Optional: PowerShell, Bicep, Terraform (future labs)
+- Azure CLI (`az`)
+- Bash scripting
+- Git + GitHub
+- VS Code
+- (Future) PowerShell, Bicep, Terraform, GitHub Actions
 
 ---
 
 ## 📁 Project Structure
 
-Each lab is stored in its own GitHub **branch** inside the [`Azure-labs`](https://github.com/ikoviko/Azure-labs) repository:
+Each lab is stored in its own **dedicated GitHub branch**.
 
-| Lab Branch         | Description                                                                 |
-|--------------------|-----------------------------------------------------------------------------|
-| [`VM-CLI-LAB`](https://github.com/ikoviko/Azure-labs/tree/VM-CLI-LAB)        | Build a virtual machine and full networking stack from scratch using Azure CLI |
-| [`STORAGE-CLI-LAB`](https://github.com/ikoviko/Azure-labs/tree/STORAGE-CLI-LAB) | Create and manage an Azure File Share with soft delete + restore via CLI       |
+| Branch                | Description                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| `VM-CLI-LAB`           | Deploy a virtual machine with full networking stack using Azure CLI         |
+| `STORAGE-CLI-LAB`      | Create and manage an Azure File Share with soft delete + recovery           |
+| `RBAC-MONITORING-LAB`  | Assign roles, monitor resources, and configure alerts using Entra + CLI      |
 
----
-
-## 🚀 Why CLI?
-
-- 💻 Learn infrastructure as code fundamentals *before* jumping to tools like Bicep or Terraform
-- 🧠 Reinforce what’s happening under the hood (you control every parameter)
-- 🛠️ Prepare for certs like **AZ-104** and **AZ-305**
-- 🎯 Show real-world engineering capability, not just point-and-click
+> Each lab includes a `README.md`, `deploy.sh`, and `teardown.sh` file for clear reuse.
 
 ---
 
-## 🧠 Coming Soon
+## 🧠 Why CLI Focused?
 
-- 🔐 **RBAC Lab** — create and assign custom roles via CLI
-- 📦 **Bicep Lab** — deploy the same infra using Infrastructure-as-Code
-- ⚙️ **DevOps Labs** — CI/CD pipelines, YAML-based workflows, monitoring
-- ☁️ **Multi-cloud folder** — AWS and GCP scripts to compare service design
+CLI is used primarily because:
+- It builds foundational knowledge for **Infrastructure-as-Code**
+- It enforces learning how Azure works at the parameter level
+- It aligns with the goals of becoming a DevOps-capable engineer
+
+Portal usage is not excluded — but scripting and repeatability are the priority for now.
+
+---
+
+## 🚀 What’s Coming Next?
+
+- 🔐 More RBAC + Identity Labs (custom roles, scoped access)
+- 📦 Bicep Lab — deploy infra using Azure-native IaC
+- ⚙️ DevOps Labs — pipelines, automation, deployment workflows
+- ☁️ Multi-cloud Lab — AWS & GCP equivalents for skill comparison
 
 ---
 
 ## ✨ How to Use This Repo
 
-1. Browse each lab branch via the GitHub branch selector
-2. Clone the repo or copy the scripts into your terminal
-3. Follow the `README.md` and `deploy.sh` inside each project
-4. Use `teardown.sh` to clean up and avoid costs
-5. Fork the repo to use as your own cloud lab journal
+- Use the branch selector above to explore each lab
+- Clone or fork the repo for hands-on practice
+- Read the `README.md` in each lab branch
+- Run `deploy.sh` to build, `teardown.sh` to clean up
 
 ---
 
-## 📬 Contact
+## 📬 Maintained By
 
-Created and maintained by **ikoviko**
+**ikoviko** – documenting the journey.
+
